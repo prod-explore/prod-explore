@@ -9,7 +9,7 @@ I also got into building with LLMs and put together a professional local-agent s
 These days I run a homelab server, build software as a freelancer and founder, and tinker with microcontrollers on the side.
 
 **Example of software I build for clients:**
-🧗 [FANTASTYCZNE WSPINANIE — climbing class registration system](https://github.com/prod-explore/SKARPA)
+🧗 [FANTASTYCZNE WSPINANIE](https://github.com/prod-explore/SKARPA)
 
 **Another app I built:**
 🖥️ [NEXTOUCH-SYSTEM](https://github.com/prod-explore/NEXTOUCH-SYSTEM)
