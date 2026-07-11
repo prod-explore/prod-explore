@@ -13,9 +13,12 @@ including a self-hosted AI gateway that routes requests between local LLMs
 **Selected projects:**
 🧗 [SKARPA](https://github.com/prod-explore/SKARPA) — registration system for a 
 climbing club, in production, 200+ active users
+
 🖥️ [NEXTOUCH-SYSTEM](https://github.com/prod-explore/NEXTOUCH-SYSTEM) — 
 cross-platform remote control app with a custom licensing system
+
 🧠 [mindgate](https://github.com/prod-explore/mindgate) — self-hosted, 
 OpenAI-compatible AI gateway
+
 🎵 [studio.hypnagogia](https://github.com/prod-explore/studio.hypnagogia) — 
 digital asset e-commerce platform
