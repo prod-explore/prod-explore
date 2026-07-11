@@ -1,26 +1,12 @@
-### Hi, I'm Mikołaj 👋
+Node.js developer, freelancing as Futumore since 2025.
 
-Node.js developer building and running production web systems — end to end, 
-from architecture to deployment. Self-taught: started coding on Scratch at 9, 
-then C++, then HTML/CSS/JS, and picked up an interest in application and 
-network security fundamentals around 14 (Kali Linux, Hack The Box).
+Started coding at 9 (Scratch), then C++, then web stuff around 12. Got into 
+security basics at 14 — Kali, HTB.
 
-These days I work as a freelance developer (Futumore), building backend systems 
-for real clients, and run a small homelab where I build and test my own projects — 
-including a self-hosted AI gateway that routes requests between local LLMs 
-(Ollama) and tools via MCP.
+I build backend systems for clients and run my own stuff on a homelab server.
 
-**Selected projects:**
-
-
-🧗 [SKARPA](https://github.com/prod-explore/SKARPA) — registration system for a 
-climbing club, in production, 200+ active users
-
-🖥️ [NEXTOUCH-SYSTEM](https://github.com/prod-explore/NEXTOUCH-SYSTEM) — 
-cross-platform remote control app with a custom licensing system
-
-🧠 [mindgate](https://github.com/prod-explore/mindgate) — self-hosted, 
-OpenAI-compatible AI gateway
-
-🎵 [studio.hypnagogia](https://github.com/prod-explore/studio.hypnagogia) — 
-digital asset e-commerce platform
+Main pojects:
+- 🧗 [SKARPA](https://github.com/prod-explore/SKARPA) — registration system for a climbing club, built and updated over time as the client's needs changed. In production, 200+ users.
+- 🖥️ [NEXTOUCH-SYSTEM](https://github.com/prod-explore/NEXTOUCH-SYSTEM) — remote desktop control app. Electron + React Native, C# for the input injection, Stripe licensing with hardware ID binding.
+- 🧠 [mindgate](https://github.com/prod-explore/mindgate) — local LLM gateway I built for my own setup. Raspberry Pi routes requests to a compute node that wakes on demand, OpenAI-compatible API, MCP tools.
+- 🎵 [studio.hypnagogia](https://github.com/prod-explore/studio.hypnagogia) — e-commerce for selling my own audio/beats, syncs catalog from YouTube, Stripe checkout.
