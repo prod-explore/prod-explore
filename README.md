@@ -1,4 +1,4 @@
-Node.js developer, freelancing as Futumore since 2025.
+Hi, I'm Node.js developer, freelancing as Futumore since 2025.
 
 Started coding at 9 (Scratch), then C++, then web stuff around 12. Got into 
 security basics at 14 — Kali, HTB.
