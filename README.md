@@ -11,6 +11,7 @@ including a self-hosted AI gateway that routes requests between local LLMs
 (Ollama) and tools via MCP.
 
 **Selected projects:**
+
 🧗 [SKARPA](https://github.com/prod-explore/SKARPA) — registration system for a 
 climbing club, in production, 200+ active users
 
