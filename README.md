@@ -1,6 +1,6 @@
-Hi, I'm a Node.js developer from Katowice, Poland, freelancing as Futumore since 2025.
+Hi, I'm a backend and platform engineer from Katowice, Poland (Node.js, TypeScript), freelancing as Futumore since 2025.
 
-I build backend-heavy web systems for clients and run my own stuff on a Raspberry Pi homelab, so I also look after what comes after `git push`: Docker, nginx and HTTPS, CI, backups.
+I build AI infrastructure and run it myself: a gateway for local and cloud models, a sandboxed agent workspace and an Obsidian-to-MCP bridge, all on a Raspberry Pi homelab, next to a commercial booking app with 200+ users. So I look after the whole path, from `git push` to the container that serves it: Docker images built in CI for amd64 and arm64, nginx and HTTPS, rollbacks, backups.
 
 Started coding at 9 (Scratch), then C++, then web stuff around 12. Got into security basics at 14 — Kali, HTB.
 
