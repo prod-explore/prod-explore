@@ -1,19 +1,21 @@
-Hi, I'm a backend and platform engineer from Katowice, Poland (Node.js, TypeScript), freelancing as Futumore since 2025.
+I'm Mikołaj, a backend developer from Katowice, Poland, working in Node.js and TypeScript.
 
-I build AI infrastructure and run it myself: a gateway for local and cloud models, a sandboxed agent workspace and an Obsidian-to-MCP bridge, all on a Raspberry Pi homelab, next to a commercial booking app with 670 registered accounts and 750+ bookings. So I look after the whole path, from `git push` to the container that serves it: Docker images built in CI for amd64 and arm64, nginx and HTTPS, rollbacks, backups.
+Most of what I build starts as a problem of my own. I write the tool, then run it myself on a Raspberry Pi 5 at home, behind my own reverse proxy. The one thing here built for someone else is the booking system of my family's climbing school, in production since April 2026.
 
-Started coding at 9 (Scratch), then C++, then web stuff around 12. Got into security basics at 14 — Kali, HTB.
+I started as a kid with Scratch, Minecraft redstone and an after-school web class, then spent a few years producing music. I came back to programming in September 2025 to build a store for my own beats, and have been building since.
 
-**Stack:** Node.js, TypeScript, Express, Fastify, React, SQLite, Docker, GitHub Actions, nginx.
+**Stack:** Node.js, TypeScript, Express, Fastify, React, SQLite, Docker, GitHub Actions, nginx, Linux.
 
-## Public projects
+## Projects
 
-All of them have CI on every push, and the READMEs say how to run them.
+Every repository has CI on every push and a README that says how to run it.
 
-- 🧠 [**mindgate**](https://github.com/prod-explore/mindgate) — one OpenAI-compatible API in front of my own GPU machine (woken with Wake-on-LAN when a request needs it) and the cloud models I use. A key can be local-only, and a model is never swapped behind your back. Fastify + SQLite on a Raspberry Pi, 500+ tests.
-- 🤖 [**everything-app**](https://github.com/prod-explore/everything-app) — self-hosted, bring-your-own-key AI workspace: multi-provider chat, a sandboxed code agent that can browse the web and work with Git, multi-agent delegation behind a cost guard. Over a thousand tests across six packages.
-- 📓 [**OBSIDIAN-LIVESYNC**](https://github.com/prod-explore/OBSIDIAN-LIVESYNC) — an Obsidian vault that AI agents read and edit through MCP, kept in sync with Google Calendar and Tasks. Strict TypeScript; every path is checked against traversal and symlinks.
-- 🧗 [**climbing-booking**](https://github.com/prod-explore/climbing-booking) — registration system for a climbing school, in production since April 2026 with 670 registered accounts and 750+ bookings: class schedule, waiting list, instructor roles, passwordless login. Express + SQLite; the operator's and the venue's details are edited in the admin panel, not in the code.
-- 🔀 [**nginx-reverse-proxy**](https://github.com/prod-explore/nginx-reverse-proxy) — one nginx with automatic HTTPS in front of any number of containers, each on its own network. The whole configuration is validated in CI.
+- [**climbing-booking**](https://github.com/prod-explore/climbing-booking): class sign-up for my family's climbing school. 670 registered accounts and 750+ bookings so far. Waiting list with automatic promotion, passwordless login, instructor and admin panels. Express, SQLite, 174 tests.
+- [**mindgate**](https://github.com/prod-explore/mindgate): I wanted to use the models on my desktop PC from anywhere. It became one OpenAI-compatible API in front of that PC, which it wakes with Wake-on-LAN and lets sleep when idle, and the cloud models I use. Per-app keys, budgets and a local-only flag. Fastify, SQLite, 500+ tests.
+- [**everything-app**](https://github.com/prod-explore/everything-app): the AI workspace I wanted and could not buy. Any model through one API, a code agent in a Docker sandbox per project, a browser it drives, Git through a proxy that keeps credentials out of the sandbox, and an approval gate on every shell command. Early; 1,000+ tests across six packages.
+- [**OBSIDIAN-LIVESYNC**](https://github.com/prod-explore/OBSIDIAN-LIVESYNC): my Obsidian vault is where I plan everything, so AI agents read and edit it through MCP and it stays in sync with Google Calendar and Tasks. Paths are checked against traversal and symlinks; nothing is ever permanently deleted. In daily use.
+- [**nginx-reverse-proxy**](https://github.com/prod-explore/nginx-reverse-proxy): the nginx in front of all of the above since September 2025. HTTPS, per-client rate limits, each app on its own Docker network with no published ports.
 
-Also built, in private repositories (happy to walk through them): **NEXTOUCH**, a remote desktop control app (Electron + React Native, C# for input injection, Stripe licensing with hardware ID binding), and **studio.hypnagogia**, an online shop for my own audio that syncs its catalog from YouTube.
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/mikolaj-kajdan)
