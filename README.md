@@ -1,21 +1,38 @@
-I'm Mikołaj, a backend and full-stack developer from Katowice, Poland, working in Node.js and TypeScript.
+# Mikołaj Kajdan
 
-Most of what I build starts as a problem of my own. I write the tool, then run it myself on a Raspberry Pi 5 at home, behind my own reverse proxy. The one thing here built for someone else is the booking system of a climbing school, in production from April to October 2026, the whole run of an EU-funded programme of free classes.
+Backend & full-stack developer · Node.js, TypeScript · AI integrations · Katowice, Poland
 
-I started as a kid with Scratch, Minecraft redstone and an after-school web class, then spent a few years producing music. I came back to programming in September 2025 to build a store for my own beats, and have been building since.
+I build backend systems and run them in production myself. A booking system I wrote served a climbing
+school's EU-funded programme (670 accounts, 750+ bookings), and on the same Raspberry Pi 5 I run
+a self-hosted AI agent platform and an MCP server I use every day. Each app has its own Docker network
+behind my TLS reverse proxy and ships through CI with automated tests. I build with AI coding agents
+and own the architecture, code review and testing.
 
-**Stack:** Node.js, TypeScript, Express, Fastify, React, SQLite, Docker, GitHub Actions, nginx, Linux.
+Looking for my first full-time developer role.
 
-## Projects
+## Featured
 
-Every repository has CI on every push to main and every pull request, and a README that says how to run it.
+### [EverythingApp](https://github.com/prod-explore/everything-app): self-hosted AI agent platform
+The AI workspace I wanted and could not buy: any OpenAI-compatible model, a code agent with a Docker
+sandbox per project, a browser it drives, Git through a proxy that keeps credentials out of the sandbox,
+and an approval gate on every shell command. 5 containerised services, 1,300+ tests, 21 architecture
+decision records. TypeScript, Node.js, React, Docker, MCP.
 
-- [**climbing-booking**](https://github.com/prod-explore/climbing-booking): class sign-up for a climbing school. 670 registered accounts and 750+ bookings. Waiting list with automatic promotion, passwordless login, instructor and admin panels. Express, SQLite, 270+ tests. [Live demo](https://cb-demo.futumore.pl/calendar).
-- [**mindgate**](https://github.com/prod-explore/mindgate): I wanted to use the models on my desktop PC from anywhere. It became one OpenAI-compatible API in front of that PC, which it wakes with Wake-on-LAN and lets sleep when idle, and the cloud models I use. Per-app keys, budgets and a local-only flag. Fastify, SQLite, 500+ tests.
-- [**everything-app**](https://github.com/prod-explore/everything-app): the AI workspace I wanted and could not buy. Any model through one API, a code agent in a Docker sandbox per project, a browser it drives, Git through a proxy that keeps credentials out of the sandbox, and an approval gate on every shell command. 1,300+ tests.
-- [**OBSIDIAN-LIVESYNC**](https://github.com/prod-explore/OBSIDIAN-LIVESYNC): my Obsidian vault is where I plan everything, so AI agents read and edit it through MCP and it stays in sync with Google Calendar and Tasks. Paths are checked against traversal and symlinks; nothing is ever permanently deleted. In daily use.
-- [**nginx-reverse-proxy**](https://github.com/prod-explore/nginx-reverse-proxy): the nginx in front of all of the above since September 2025. HTTPS, per-client rate limits, each app on its own Docker network with no published ports.
+### [climbing-booking](https://github.com/prod-explore/climbing-booking): booking system in production · [live demo](https://cb-demo.futumore.pl/calendar)
+Class sign-up for a climbing school, in production April–October 2026: 670 registered accounts,
+750+ bookings. Waiting list with automatic promotion, sign-ups that cannot overbook under concurrency,
+passwordless login, instructor and admin panels. Express, SQLite, 300+ tests.
 
-## Contact
+## Also here
+- [mindgate](https://github.com/prod-explore/mindgate): one OpenAI-compatible API in front of cloud
+  models and my home GPU PC, which it wakes over Wake-on-LAN. Fastify, SQLite, 500+ tests.
+- [OBSIDIAN-LIVESYNC](https://github.com/prod-explore/OBSIDIAN-LIVESYNC): MCP server that lets AI agents
+  edit my Obsidian vault safely, with two-way Google Calendar and Tasks sync. 290+ tests.
+- [nginx-reverse-proxy](https://github.com/prod-explore/nginx-reverse-proxy): the nginx in front of all
+  of the above since September 2025: HTTPS, rate limits, no published app ports.
 
-[LinkedIn](https://www.linkedin.com/in/mikolaj-kajdan)
+Every repository runs CI on each push and pull request and has a README that says how to run it.
+
+**Stack:** Node.js · TypeScript · Express · Fastify · React · SQLite · Docker · GitHub Actions · nginx · Linux · Python
+
+**Contact:** [LinkedIn](https://www.linkedin.com/in/mikolaj-kajdan)
