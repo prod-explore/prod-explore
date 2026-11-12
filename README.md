@@ -1,4 +1,4 @@
-I'm Mikołaj, a backend developer from Katowice, Poland, working in Node.js and TypeScript.
+I'm Mikołaj, a backend and full-stack developer from Katowice, Poland, working in Node.js and TypeScript.
 
 Most of what I build starts as a problem of my own. I write the tool, then run it myself on a Raspberry Pi 5 at home, behind my own reverse proxy. The one thing here built for someone else is the booking system of a climbing school, in production from April to October 2026, the whole run of an EU-funded programme of free classes.
 
@@ -8,7 +8,7 @@ I started as a kid with Scratch, Minecraft redstone and an after-school web clas
 
 ## Projects
 
-Every repository has CI on every push and a README that says how to run it.
+Every repository has CI on every push to main and every pull request, and a README that says how to run it.
 
 - [**climbing-booking**](https://github.com/prod-explore/climbing-booking): class sign-up for a climbing school. 670 registered accounts and 750+ bookings. Waiting list with automatic promotion, passwordless login, instructor and admin panels. Express, SQLite, 270+ tests. [Live demo](https://cb-demo.futumore.pl/calendar).
 - [**mindgate**](https://github.com/prod-explore/mindgate): I wanted to use the models on my desktop PC from anywhere. It became one OpenAI-compatible API in front of that PC, which it wakes with Wake-on-LAN and lets sleep when idle, and the cloud models I use. Per-app keys, budgets and a local-only flag. Fastify, SQLite, 500+ tests.
